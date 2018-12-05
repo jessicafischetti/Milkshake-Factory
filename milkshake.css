@@ -1,0 +1,179 @@
+body { 
+  background-color: #ffffff;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+article address.author {
+  font-weight: bold;
+  font-style: normal;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 5px 0px;
+}
+
+/*
+article address.author:before {
+  "Author: ""
+}
+*/
+nav ul {
+  padding: 5px 0px;
+}
+
+nav ul li {
+  display:inline;
+  list-style-type: none;
+  padding: 5px 10px;
+}
+
+nav {
+  background-color: #9BD4F5;
+  /*padding: 5px 0px;*/
+  margin: 10px 10px 0px 10px; 
+}
+
+nav a:link, nav a:visited {
+  color: #954b4b;
+  font-weight: bold;
+  border-bottom: 0px;
+}
+
+nav .selected {
+  background-color: #fadadd;
+}
+
+#coupon a, img {
+  border: none;
+}
+
+#coupon {
+  position: fixed;
+  top: 350px;
+  left: -210px;
+  transition: 1s;
+}
+
+#coupon:hover {
+  left: -10px;
+  transition: 1s;
+}
+
+#topHeader {
+  background-color: #fadadd;
+  /*margin:           10px;*/
+  margin-bottom:    0px;
+  height:           108px;
+  /*position:         fixed;
+  width:            100%;
+  top:              0px;*/
+}
+
+#main {
+  background:       #fadadd url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+}
+
+#sidebar {
+  background:       #9BD4F5 url(images/background.gif) bottom right;
+  font-size:        105%;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+}
+
+#drinks {
+  padding: 15px;
+  background-color: #9BD4F5;
+  margin:           0px 10px 10px 10px;
+}
+
+footer {
+  background-color: #9BD4F5;
+  color:            #ffffff;
+  text-align:       center;
+  padding:          15px;
+  margin:           10px;
+  margin-top:        0px;
+  font-size:        90%;
+}
+
+@media (max-width: 480px) {
+  #drinks {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 481px) {
+  #drinks {
+    width: 20%;
+  }
+  #main {
+    width: 50%;
+  }
+  .tableContainer {
+    display: table;
+    border-spacing: 10px;
+  }
+
+  .tableRow {
+    display: table-row;
+  }
+
+  .tableCell {
+    vertical-align: top;
+    display: table-cell;
+  }
+}
+
+#topHeader img {
+  max-width: 50%;
+}
+
+img {
+  max-width: 100%;
+}
+
+#headerLogo {
+  /*margin-right: 250px;*/
+  float: left;
+}
+
+#headerSlogan {
+  /*position: absolute;
+  right: 10px;
+  top: 10px;*/
+  float: right;
+}
+
+#award {
+  top: 30px;
+  /*left: 365px;*/
+  left: 50%;
+  position: absolute;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #954b4b;
+}
+
+.slogan { color: #954b4b; }
+
+.beanheading {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
